@@ -6,7 +6,7 @@ import seaborn as sns
 
 LOGGER = get_logger(__name__)
 
-# Load the exam_scores.csv dataset
+# Load the scores.csv dataset
 @st.cache_data
 def load_data():
     return pd.read_csv('scores.csv')
